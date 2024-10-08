@@ -1,0 +1,52 @@
+name: sample_screen
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: BeVietnamPro
+      fonts:
+        - asset: assets/fonts/BeVietnamPro-Regular.ttf
+        - asset: assets/fonts/BeVietnamPro-SemiBold.ttf
+        - asset: assets/fonts/BeVietnamPro-Medium.ttf
+
+  assets:
+    - assets/images/
+    - assets/images/search.png
+    - assets/images/filter.png
+    - assets/images/india.jpeg
+    - assets/images/moscow.jpeg
+    - assets/images/usa.jpg
+    - assets/images/japan.jpeg
+    - assets/images/brazil.jpeg
+    - assets/images/france.jpeg
+    - assets/images/hotel1.jpeg
+    - assets/images/hotel2.jpeg
+    - assets/images/hotel3.jpeg
+    - assets/images/hotel4.jpg
+    - assets/images/hotel5.jpeg
+    - assets/images/hotel6.jpeg
+    - assets/images/hotel7.jpg
+    - assets/images/hotel8.jpeg
+    - assets/images/thunder@2x.png
+    - assets/images/hosting.png
+    - assets/images/filter.jpg
+
+
